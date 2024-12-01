@@ -9,8 +9,6 @@ services:
       - .env
     ports:
       - "32380:80"
-    volumes:
-      - ./www:/var/www/html
     depends_on:
       - db
   db:
